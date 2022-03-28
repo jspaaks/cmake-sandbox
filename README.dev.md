@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- cmake >= 3.10 
+- cmake >= 3.14
 - g++ compiler >= 9
 
 ## Building
