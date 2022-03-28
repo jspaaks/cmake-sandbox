@@ -6,7 +6,7 @@ include(FetchContent)
 FetchContent_Declare(
   libanimals
   GIT_REPOSITORY https://github.com/jspaaks/sandbox-cmake-cpp-libanimals.git
-  GIT_TAG        e6863bcbb1de0a1dbd284ac49b064831624e9b34
+  GIT_TAG        c77caa965595163c845601e7e016614675426bb6
 )
 
 # CMake >= 3.14
