@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.14)
 
 include(FetchContent)
 
@@ -6,7 +6,7 @@ include(FetchContent)
 FetchContent_Declare(
   libanimals
   GIT_REPOSITORY https://github.com/jspaaks/sandbox-cmake-cpp-libanimals.git
-  GIT_TAG        c77caa965595163c845601e7e016614675426bb6
+  GIT_TAG        0.1.0
 )
 
 # CMake >= 3.14
