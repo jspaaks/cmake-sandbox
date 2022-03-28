@@ -2,6 +2,7 @@ cmake_minimum_required (VERSION 3.14)
 project (main LANGUAGES CXX)
 add_subdirectory (external/liboperations/)    # checked in to version control
 add_subdirectory (external/libshapes/)        # a git submodule
+include(cmake/fetch-libanimals.cmake)
 add_executable (myprogram main.cpp)
 target_include_directories(
     myprogram
