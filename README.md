@@ -3,6 +3,6 @@
 Repository for trying some patterns for building C++ libraries with CMake.
 
 - liboperations: checked into version control
-- libshapes: submodule, included from https://github.com/jspaaks/sandbox-cmake-cpp-libshapes
-- libanimals: fetch content TODO
+- libshapes: `git submodule`, included from https://github.com/jspaaks/sandbox-cmake-cpp-libshapes
+- libanimals: cmake `FetchContent` from https://github.com/jspaaks/sandbox-cmake-cpp-libanimals TODO
 - ?: locally installed in a nontraditional place TODO
